@@ -27,7 +27,7 @@ function App() {
     formData.append("file", selectedFile);
 
     try {
-      const response = await fetch("https://credit-account-report-generator.onrender.com/", {
+      const response = await fetch("https://credit-account-report-generator.onrender.com/api/upload", {
         method: "POST",
         body: formData,
       });
