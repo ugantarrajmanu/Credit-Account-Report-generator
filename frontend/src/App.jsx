@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FileText, Sun, Moon } from "lucide-react";
 import LoadingSpinner from "./components/LoadSpinner";
 import ErrorDisplay from "./components/ErrorDisplay";
-import FileUpload from "./components/Fileupload";
+import FileUpload from "./components/FileUpload";
 import ReportDisplay from "./components/ReportDisplay";
 import DarkModeToggle from "./components/DarkModeToggle";
 
